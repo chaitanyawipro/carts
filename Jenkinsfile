@@ -2,7 +2,7 @@
 
 pipeline {
   agent {
-    label 'maven'
+    label 'any'
   }
   environment {
     APP_NAME = "carts"
